@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 
 # Load the trained model
-model_path = "classifier.joblib"
+model_path = "classifier.pkl"
 classifier = joblib.load(model_path)
 
 @st.cache_data()
